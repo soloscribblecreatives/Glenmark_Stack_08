@@ -1,0 +1,924 @@
+html {
+    touch-action: manipulation;
+}
+
+body {
+    /*width: 1024px !important;
+    height: 768px  !important;*/
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+#p2.ui-page {
+    /*background-image: url(bg.png);*/
+    background-position: center;
+    background-size: cover;
+    height: 768px !important;
+    width: 100% !important;
+}
+
+.ui-page {
+    /*background-image: url(bg.png);*/
+    background-position: center;
+    background-size: cover;
+    height: 768px !important;
+    width: 100% !important;
+}
+
+.ui-input-text,
+.ui-input-search {
+    border: 0
+}
+
+div#menuclick {
+    /*background: #ff00006b;*/
+    width:4%;
+    right: 0;
+	height:7%;
+    top: 0%;
+    position: absolute;
+    z-index: 4;
+}
+
+
+.side-homebtn {
+    width: 2.5%;
+    left: 1.5%;
+    top: 1.5%;
+    position: absolute;
+    z-index: 3;
+}
+
+img#refreshbtn {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 4%;
+}
+
+
+/*
+#p3.ui-page{
+    background-image: url(p3_bg.png);
+    background-position: center;
+    background-size: cover;
+    height:768px !important;
+    width: 100% !important;
+}
+#p4.ui-page{
+    background-image: url(pg4_bg.png);
+    background-position: center;
+    background-size: cover;
+    height:768px !important;
+    width: 100% !important;
+}
+#p5.ui-page{
+    background-image: url(p5_bg.png);
+    background-position: center;
+    background-size: cover;
+    height:768px !important;
+    width: 100% !important;
+}
+*/
+
+
+/*#p4-1 {
+    animation-delay: 1s;
+}*/
+
+.maskTag {
+     width: 489px;
+    height: 91px;
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    right: 0;
+    bottom: 0;
+    transition: all .2s;
+    background: radial-gradient(0 0, circle farthest-side, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, .8) 98%, rgba(255, 255, 255, 0) 100%) no-repeat;
+    background: radial-gradient(circle farthest-side at 0 0, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0.74) 98%, rgba(255, 255, 255, 0) 100%) no-repeat;
+    /* transform: rotate(20deg); */
+    animation: shimmer 2s infinite;
+    /*animation: shimmer 2s normal forwards ease-in-out;*/
+}
+
+.animadiv {
+    position: absolute;
+    top: 9%;
+    left: 25%;
+    width: 475px;
+    height: 143px;
+    /*background: #ff00004d;*/
+    /*opacity: 0.5;*/
+}
+
+.animadiv1 {
+    position: absolute;
+    top: 9%;
+    left: 25%;
+    width: 475px;
+    height: 143px;
+    /*background: #ff00004d;*/
+    /*opacity: 0.5;*/
+}
+
+@keyframes shimmer {
+    from {
+        background-position: -500px 0;
+    }
+
+    to {
+        background-position: 100px 0;
+    }
+}
+
+.intro-logo-2 {
+    width: 405px;
+    height: 82px;
+    position: absolute;
+    top: -1%;
+    left: 0%;
+}
+
+.fastest {
+    animation-duration: 200ms;
+}
+
+@font-face {
+    font-family: WeeblySleekUILight;
+    src: url(../psy/common/fonts/weblysleekuisb.ttf);
+}
+
+.menubtns {
+    font-family: WeeblySleekUISemibold, WeeblySleekUILight, Helvetica, Arial, sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+.menu1-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 48.6%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    background: url(../psy/common/nav/empty/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu2-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 53.2%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu3-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 57.8%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/3.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu4-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 62.4%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/4.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu5-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 67%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/5.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu6-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 71.6%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/6.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu7-empty {
+    display: none;
+}
+
+
+
+.menu1-empty.fill {
+    background: url(../psy/common/nav/fill/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu2-empty.fill {
+    background: url(../psy/common/nav/fill/2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu3-empty.fill {
+    background: url(../psy/common/nav/fill/3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu4-empty.fill {
+    background: url(../psy/common/nav/fill/4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu5-empty.fill {
+    background: url(../psy/common/nav/fill/5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu6-empty.fill {
+    background: url(../psy/common/nav/fill/6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu7-empty.fill {
+    display: none;
+}
+
+
+
+.menu11-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 48.6%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    background: url(../psy/common/nav/empty/11.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu12-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 53.2%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/12.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu13-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 57.8%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/13.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu14-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 62.4%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/14.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu15-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 67%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/15.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu16-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 71.6%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/16.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu17-empty {
+    display: none;
+}
+
+
+
+.menu11-empty.fill {
+    background: url(../psy/common/nav/fill/11.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu12-empty.fill {
+    background: url(../psy/common/nav/fill/12.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu13-empty.fill {
+    background: url(../psy/common/nav/fill/13.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu14-empty.fill {
+    background: url(../psy/common/nav/fill/14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu15-empty.fill {
+    background: url(../psy/common/nav/fill/15.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu16-empty.fill {
+    background: url(../psy/common/nav/fill/16.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu17-empty.fill {
+    display: none;
+}
+
+
+.menu21-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 48.6%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    background: url(../psy/common/nav/empty/21.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu22-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 53.2%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/22.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu23-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 57.8%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/23.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu24-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 62.4%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/24.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu25-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 67%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/25.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu26-empty {
+    width: 5.2%;
+    height: 3.7%;
+    left: 2.4%;
+    top: 71.6%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    background: url(../psy/common/nav/empty/26.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.menu27-empty {
+    display: none;
+}
+
+
+
+.menu21-empty.fill {
+    background: url(../psy/common/nav/fill/21.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu22-empty.fill {
+    background: url(../psy/common/nav/fill/22.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu23-empty.fill {
+    background: url(../psy/common/nav/fill/23.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu24-empty.fill {
+    background: url(../psy/common/nav/fill/24.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu25-empty.fill {
+    background: url(../psy/common/nav/fill/25.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu26-empty.fill {
+    background: url(../psy/common/nav/fill/26.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu27-empty.fill {
+    display: none;
+}
+
+
+
+.btntext {
+    margin-right: 8px;
+    margin-top: 9.5px;
+    text-align: right;
+}
+
+#index_menu {
+    width:4.6%;
+    height: 7%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+/*#index_home {
+    width: 4%;
+    height: 5%;
+    position: absolute;
+    top: 0%;
+    right: 4%;
+    z-index: 5;
+    display: none;
+}*/
+
+#index_1 {
+    width: 7%;
+    height: 6%;
+    position: absolute;
+    top:7%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+#index_2 {
+    width: 7%;
+    height:6.9%;
+    position: absolute;
+    top: 13.1%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+#index_3 {
+    width: 7%;
+    height:7%;
+    position: absolute;
+    top: 20.4%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+#index_4 {
+    width: 7%;
+    height:7%;
+    position: absolute;
+    top: 27.5%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+#index_5 {
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    top: 34.5%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+
+}
+
+#index_6 {
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    top: 42%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+#index_7 {
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    top: 49%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+#index_8 {
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    top: 56%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+#index_9 {
+    width: 7%;
+    height:7%;
+    position: absolute;
+    top: 63.2%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+#index_10 {
+    width: 7%;
+    height:7%;
+    position: absolute;
+    top: 70.3%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+#index_11 {
+    width: 7%;
+    height:7%;
+    position: absolute;
+    top: 77.5%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+#index_12 {
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    top:85%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+#index_13 {
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    top: 92.5%;
+    right: 0%;
+    z-index: 5;
+    display: none;
+}
+
+
+@keyframes anim {
+    0% {
+        transform: rotateY(90deg);
+    }
+    50% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(90deg);
+    }
+}
+
+@keyframes animb {
+    0% {
+        top: 14.5%;
+    }
+    50% {
+        top: 17.5%;
+    }
+    100% {
+        top: 14.5%;
+    }
+}
+
+
+.temp {
+    width: 100%;
+    opacity: 0.5;
+    display: none;
+}
+
+
+/* new code */
+
+
+
+element.style {
+    position: absolute;
+    width: 7.6%;
+    top: 92.5%;
+    left: 60.9%;
+}
+
+.refcontainerArea {
+    position: absolute;
+    width: auto;
+    z-index: 3;
+    left:0%;
+}
+
+/*temp */
+
+
+@keyframes stro1 {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes stro2 {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.CircleImage {
+    top: 0%;
+    width: 100%; 
+    left: 0%; 
+    position: absolute;
+}
+
+.CircleImageTop {
+top: 3.2%;
+width: 10.5%;
+left: 21.3%;
+position: absolute;
+z-index: 1;
+}
+
+.CircleImageInner {
+	left: 67.5%;
+    top: 2.3%;
+    position: absolute;
+	width: 24.8%;
+}
+
+.Common_ref-container {
+    width: 0%;
+    height: 17%;
+    overflow: hidden;
+    position: absolute;
+    top: 89.54%;
+    left: 5%;
+    z-index: 3;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/**POPUP CSS*/
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    padding-top: 25%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.popup-overlay2 {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    padding-top: 25%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.popup-overlay.active {
+        visibility: visible;
+        text-align: center;
+    }
+
+.popup-content {
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+
+    .popup-content.active {
+        visibility: visible;
+        /*background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);*/
+    }
+
+
+
+
+#zoom1 {
+	position: absolute;
+    display: block;
+    width: 38%;
+    height:252px;
+    bottom:15.5%;
+    left: 18%; 
+}
+
+#zoom1_4 {
+    position: absolute;
+    display: block;
+    width: 75%;
+    height: 233px;
+    bottom: 22%;
+    left: 16%;
+}
+
+#zoom2 {
+    position: absolute;
+    display: block;
+    width: 36%;
+    height:252px;
+    bottom:15.5%;
+    left:57.5%; 
+}
+
+
+
+div#p1_6zoom1 {
+	position: absolute;
+    display: block;
+    width: 38%;
+    height:252px;
+    bottom:15.5%;
+    left: 18%; 
+    z-index: 4;
+}
+
+div#p1_6zoom2 {
+    position: absolute;
+    display: block;
+    width: 36%;
+    height:252px;
+    bottom:15.5%;
+    left:57.5%; 
+    z-index: 4;
+}
+
