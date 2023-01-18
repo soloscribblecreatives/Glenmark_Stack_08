@@ -1,11 +1,80 @@
-* {
+*{
 	margin: 0px;
 	padding: 0px;
 }
 
-.background {
+.s3_1 {
 	position: absolute;
 	width: 1024px;
 	height: 768px;
 	z-index: 1;
+}
+
+.s3_2 {
+	position: absolute;
+  left: 74px;
+  top: 165px;
+  width: 517px;
+  height: 225px;
+	animation: zoomIn 1s;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	z-index: 4;
+}
+
+.s3_3 {
+	position: absolute;
+  left: 646px;
+  top: 108px;
+  width: 289px;
+  height: 408px;
+	animation: fadeInDown 0.5s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	z-index: 3;
+}
+
+.s3_4 {
+	position: absolute;
+  left: 534px;
+  top: 384px;
+  width: 441px;
+  height: 294px;
+	animation: fadeInRight 1s;
+	animation-delay: 2.5s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+@-webkit-keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDownSmallSmall {
+  -webkit-animation-name: fadeInDownSmall;
+  animation-name: fadeInDownSmall;
 }

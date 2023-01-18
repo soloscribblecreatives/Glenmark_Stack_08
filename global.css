@@ -225,6 +225,7 @@ html[xmlns] .clearfix {
 	background-image: url(close.png);
 	bottom: 157px;
 }
+
 #myconsole {
 	display: none;
 	position: fixed;
@@ -238,54 +239,11 @@ html[xmlns] .clearfix {
 	color: #ffffff;
 }
 
-.bottom-slider {
-	position: absolute;
-	display: none;
-}
-
-.blocker {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1024px;
-  height: 768px;
-  z-index: 5;
-}
-
 .home {
-  position: absolute;
-  left: 900px;
-  top: 632px;
-  width: 120px;
-  height: 120px;
-  z-index: 2;
-}
-
-.link2 {
-  position: absolute;
-  left: 787px;
-  top: 678px;
-  width: 219px;
-  height: 81px;
-  z-index: 10;
-}
-
-.next_arrow1 {
-  position: absolute;
-  left: 787px;
-  top: 678px;
-  width: 219px;
-  height: 81px;
-  display: none;
-  z-index: 999;
-}
-
-.next_arrow2 {
-  position: absolute;
-  left: 677px;
-  top: 91px;
-  width: 261px;
-  height: 105px;
-  display: none;
-  z-index: 999;
+	position:absolute;
+	right:1px;
+	bottom:0px;
+	width:80px;
+	height:80px;
+	z-index:15;
 }

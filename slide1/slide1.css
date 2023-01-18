@@ -1,11 +1,35 @@
-* {
+*{
 	margin: 0px;
 	padding: 0px;
 }
 
-.background {
+.s1_1 {
 	position: absolute;
 	width: 1024px;
 	height: 768px;
 	z-index: 1;
+}
+
+.s1_2 {
+  position: absolute;
+  left: 49px;
+  top: 538px;
+  width: 927px;
+  height: 58px;
+  animation: fadeInUp 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  z-index: 3;
+}
+
+.s1_3 {
+  position: absolute;
+  left: 115px;
+  top: 607px;
+  width: 793px;
+  height: 76px;
+  animation: zoomIn 1s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  z-index: 4;
 }
