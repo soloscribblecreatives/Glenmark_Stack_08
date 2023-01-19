@@ -55,21 +55,21 @@
 	z-index: 10;
 }
 
-.s5_pop1 {
+.pop_open1 {
 	position: absolute;
-	height: 100px;
-	width: 150px;
-	right: 0px;
-	bottom: 0px;
-	z-index: 15;
+  left: 938px;
+  top: 683px;
+  width: 74px;
+  height: 85px;
+	z-index: 5;
 }
 
-.s5_c1ose1 {
+.pop_close1 {
 	position: absolute;
 	width: 1024px;
 	height: 768px;
+	z-index: 10;
 	display: none;
-	z-index: 20;
 }
 
 @-webkit-keyframes fadeInDownSmall {

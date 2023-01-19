@@ -59,6 +59,31 @@
 }
 
 
+.s4_6 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 10;
+}
+
+.pop_open1 {
+	position: absolute;
+  left: 938px;
+  top: 683px;
+  width: 74px;
+  height: 85px;
+	z-index: 5;
+}
+
+.pop_close1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 10;
+	display: none;
+}
+
 @keyframes fadeInDownSmall {
   0% {
     opacity: 0;
