@@ -7,4 +7,65 @@
 	position: absolute;
 	width: 1024px;
 	height: 768px;
+	z-index: 1;
+}
+
+.bullet1 {
+	position: absolute;
+  left: 331px;
+  top: 290px;
+  width: 232px;
+  height: 65px;
+  	animation: bounceIn 0.3s;
+	animation-delay: 0.1s;
+	animation-fill-mode: both;
+	z-index: 10;
+}
+
+.bullet2 {
+	position: absolute;
+  left: 651px;
+  top: 290px;
+  width: 232px;
+  height: 65px;
+    animation: bounceIn 0.3s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	z-index: 10;
+}
+
+.bullet3 {
+	position: absolute;
+  left: 331px;
+  top: 387px;
+  width: 232px;
+  height: 65px;
+    animation: bounceIn 0.3s;
+	animation-delay: 0.3s;
+	animation-fill-mode: both;
+	z-index: 10;
+}
+
+.bullet4 {
+	position: absolute;
+  left: 651px;
+  top: 387px;
+  width: 232px;
+  height: 65px;
+    animation: bounceIn 0.3s;
+	animation-delay: 0.4s;
+	animation-fill-mode: both;
+	z-index: 10;
+}
+
+.bullet5 {
+	position: absolute;
+  left: 488px;
+  top: 484px;
+  width: 232px;
+  height: 65px;
+    animation: bounceIn 0.3s;
+	animation-delay: 0.5s;
+	animation-fill-mode: both;
+	z-index: 10;
 }
