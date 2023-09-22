@@ -10,78 +10,42 @@
 	z-index: 1;
 }
 
-.bullet1 {
+.video1 {
 	position: absolute;
-  left: 331px;
-  top: 290px;
-  width: 232px;
-  height: 65px;
-  	animation: bounceIn 0.3s;
-	animation-delay: 0.1s;
-	animation-fill-mode: both;
-	z-index: 10;
+	width: 1024px;
+	height: 768px;
+	z-index:5;
 }
 
-.bullet2 {
+.button1 {
 	position: absolute;
-  left: 651px;
-  top: 290px;
-  width: 232px;
-  height: 65px;
-    animation: bounceIn 0.3s;
-	animation-delay: 0.2s;
-	animation-fill-mode: both;
-	z-index: 10;
+	width: 1024px;
+	height: 768px;
+	z-index: 50;
 }
 
-.bullet3 {
+.video2 {
 	position: absolute;
-  left: 331px;
-  top: 387px;
-  width: 232px;
-  height: 65px;
-    animation: bounceIn 0.3s;
-	animation-delay: 0.3s;
-	animation-fill-mode: both;
-	z-index: 10;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index:10;
 }
 
-.bullet4 {
+.button2 {
 	position: absolute;
-  left: 651px;
-  top: 387px;
-  width: 232px;
-  height: 65px;
-    animation: bounceIn 0.3s;
-	animation-delay: 0.4s;
-	animation-fill-mode: both;
-	z-index: 10;
+  left: 351px;
+  top: 640px;
+  width: 324px;
+  height: 97px;
+	display: none;
+	z-index: 100;
 }
 
-.bullet5 {
+.video3 {
 	position: absolute;
-  left: 488px;
-  top: 484px;
-  width: 232px;
-  height: 65px;
-    animation: bounceIn 0.3s;
-	animation-delay: 0.5s;
-	animation-fill-mode: both;
-	z-index: 10;
-}
-
-.fadeHalf {
-  	animation: fadeHalf 0.5s;
-	animation-delay: 0s;
-	animation-fill-mode: both;
-}
-
-@keyframes fadeHalf {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0.7;
-  }
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index:10;
 }
