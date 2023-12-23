@@ -3,97 +3,97 @@
 	padding: 0px;
 }
 
-.background {
+.background, .wordWrap {
 	position: absolute;
 	width: 1024px;
 	height: 768px;
+	text-align: center;
 	z-index: 1;
 }
 
-.option1 {
+.video1 {
 	position: absolute;
-  left: 280px;
-  top: 200px;
-  width: 465px;
-  height: 75px;
-  	animation: bounceIn 0.3s;
-	animation-delay: 0.1s;
-	animation-fill-mode: both;
-	z-index: 10;
+	width: 1024px;
+	height: 670px;
+	display: none;
+	z-index: 15;
 }
 
-.option2 {
+.video2 {
 	position: absolute;
-  left: 280px;
-  top: 294px;
-  width: 465px;
-  height: 75px;
-    animation: bounceIn 0.3s;
-	animation-delay: 0.2s;
-	animation-fill-mode: both;
-	z-index: 10;
+	width: 1024px;
+	height: 670px;
+	display: none;
+	z-index: 20;
 }
 
-.option3 {
-	position: absolute;
-  left: 280px;
-  top: 388px;
-  width: 465px;
-  height: 75px;
-    animation: bounceIn 0.3s;
-	animation-delay: 0.3s;
-	animation-fill-mode: both;
-	z-index: 10;
-}
 
-.option4 {
-	position: absolute;
-  left: 280px;
-  top: 481px;
-  width: 465px;
-  height: 75px;
-    animation: bounceIn 0.3s;
-	animation-delay: 0.4s;
-	animation-fill-mode: both;
-	z-index: 10;
-}
 
-.hit_yes {
-	position: absolute;
-  left: 215px;
-  top: 279px;
-  width: 276px;
-  height: 113px;
-    animation: bounceIn 0.3s;
-	animation-delay: 0.1s;
-	animation-fill-mode: both;
-	z-index: 10;
-}
 
-.hit_no {
-	position: absolute;
-  left: 534px;
-  top: 278px;
-  width: 276px;
-  height: 113px;
-    animation: bounceIn 0.3s;
-	animation-delay: 0.2s;
-	animation-fill-mode: both;
-	z-index: 10;
-}
 
-.fadeHalf {
-  	animation: fadeHalf 0.5s;
+
+
+.anime {
+	position: absolute;
+	left: 466px;
+    top: 106px;
+	font-family: Arial;
+	font-weight: 550;
+	color: #e7dd90;
+	text-align: left;
+	font-size: 3.8em;
+	animation: bounceIn 0.3s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
+	z-index: 30;
 }
 
-@keyframes fadeHalf {
-  0% {
-    opacity: 1;
-  }
+.form {
+	position: relative;
+	text-align: center;
+	margin: auto;
+	top: 30px;
+	z-index: 5;
+}
 
-  100% {
-    opacity: 0.7;
-  }
+.databox {
+	position: absolute;
+	left: 344px;
+    top: 230px;
+    width: 337px;
+    height: 63px;
+	font-family: Papyrus;
+	font-size: 1.5em;
+	border-radius: 8px;
+	border: none;
+	z-index: 5;
+}
+
+.btn {
+	position: absolute;
+	top: 300px;
+	border: none;
+	z-index: 5;
+}
+
+.btn-success {
+	position: relative;
+    width: 162px;
+    height: 53px;
+	margin: 8px;
+	font-size: 1.3em;
+	border-radius: 8px;
+	border: none;
+	z-index: 5;
+}
+
+.btn-danger {
+	position: relative;
+    width: 162px;
+    height: 53px;
+	margin: 8px;
+	font-size: 1.3em;
+	border-radius: 8px;
+	border: none;
+	z-index: 5;
 }
