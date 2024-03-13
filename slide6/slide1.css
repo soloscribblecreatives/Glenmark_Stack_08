@@ -1,0 +1,62 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.background {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+
+.popup1 {
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  display: none;
+  z-index: 15;
+}
+
+.pop_open1 {
+	position: absolute;
+  left: 516px;
+  top: 349px;
+  width: 508px;
+  height: 259px;
+	z-index: 10;
+}
+
+.pop_close1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 20;
+}
+
+
+.popup2 {
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  display: none;
+  z-index: 15;
+}
+
+.pop_open2 {
+	position: absolute;
+  left: 940px;
+  top: 687px;
+  width: 67px;
+  height: 81px;
+	z-index: 10;
+}
+
+.pop_close2 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 20;
+}
