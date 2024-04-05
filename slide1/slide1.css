@@ -10,139 +10,50 @@
 	z-index: 1;
 }
 
-.startLoop {
-  position: absolute;
-  left: 113px;
-  top: 154px;
-  width: 458px;
-  height: 461px;
-  z-index: 50;
-}
-
-.start {
+.s1_1 {
 	position: absolute;
-  left: 290px;
-  top: 328px;
-  width: 114px;
-  height: 114px;
-	animation: pulse 1s infinite;
-	animation-delay: 0s;
-	animation-fill-mode: both;
-	z-index: 15;
-}
-
-.s1_2 {
-	position: absolute;
-  left: 341px;
-  top: 138px;
-  width: 285px;
-  height: 363px;
-	animation: fadeIn 1s;
-	animation-delay: 0.5s;
-	animation-fill-mode: both;
-	display: none;
-	z-index: 5;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
 }
 
 .s1_3 {
 	position: absolute;
-  left: 255px;
-  top: 383px;
-  width: 347px;
-  height: 285px;
-	animation: fadeIn 1s;
-	animation-delay: 1.5s;
-	animation-fill-mode: both;
-	display: none;
-	z-index: 5;
-}
-
-.s1_4 {
-	position: absolute;
-  left: 57px;
-  top: 346px;
-  width: 289px;
-  height: 309px;
-	animation: fadeIn 1s;
-	animation-delay: 2.5s;
-	animation-fill-mode: both;
-	display: none;
-	z-index: 5;
-}
-
-.s1_5 {
-	position: absolute;
-  left: 57px;
-  top: 100px;
-  width: 427px;
-  height: 285px;
-	animation: fadeIn 1s;
-	animation-delay: 3.5s;
-	animation-fill-mode: both;
-	display: none;
-	z-index: 5;
-}
-
-.s1_6 {
-	position: absolute;
-  left: 57px;
-  top: 138px;
-  width: 545px;
-  height: 517px;
-	z-index: 10;
-}
-
-.s1_7 {
-	position: absolute;
-  left: 16px;
-  top: 58px;
-  width: 651px;
-  height: 651px;
-	z-index: 10;
-}
-
-.rotateIn {
-	animation: rotateInLoop 30s infinite linear;
-	animation-delay: 0s;
-	animation-fill-mode: both;
-}
-
-.s1_8 {
-	position: absolute;
-  left: 670px;
-  top: 510px;
-  width: 314px;
-  height: 149px;
-	animation: fadeInUp 0.5s;
-	animation-delay: 4.5s;
-	animation-fill-mode: both;
-	display: none;
-	z-index: 10;
-}
-
-.s1_9 {
-	position: absolute;
-  left: 670px;
-  top: 670px;
-  width: 325px;
-  height: 34px;
-	animation: fadeInRight 0.5s;
-	animation-delay: 5.5s;
-	animation-fill-mode: both;
-	display: none;
+  left: 447px;
+  top: 86px;
+  width: 132px;
+  height: 423px;
 	z-index: 10;
 }
 
 .takeCover {
 	position: absolute;
-  left: 849px;
+  left: 715px;
   top: 682px;
-  width: 53px;
+  width: 68px;
   height: 86px;
 	z-index: 10;
 }
 
-.hit_1, .hit_2, .hit_3, .hit_4, .hit_5, .hit_6, .hit_7  {
+.takeSum {
+	position: absolute;
+  left: 786px;
+  top: 682px;
+  width: 68px;
+  height: 86px;
+	z-index: 10;
+}
+
+.takeBreath {
+	position: absolute;
+  left: 74px;
+  top: 179px;
+  width: 295px;
+  height: 256px;
+	z-index: 10;
+}
+
+.hit_1, .hit_2, .hit_3, .hit_4 {
   position: absolute;
   width: 1024px;
   height: 768px;
@@ -152,64 +63,37 @@
 
 .hit_pop1 {
 	position: absolute;
-  left: 902px;
+  left: 857px;
   top: 682px;
-  width: 53px;
+  width: 68px;
   height: 86px;
 	z-index: 10;
 }
 
 .hit_pop2 {
 	position: absolute;
-  left: 955px;
+  left: 928px;
   top: 682px;
-  width: 53px;
+  width: 68px;
   height: 86px;
 	z-index: 10;
 }
 
 .hit_pop3 {
 	position: absolute;
-  left: 368px;
-  top: 434px;
-  width: 140px;
-  height: 186px;
+  left: 93px;
+  top: 697px;
+  width: 47px;
+  height: 71px;
 	z-index: 10;
 }
 
 .hit_pop4 {
 	position: absolute;
-  left: 513px;
-  top: 503px;
-  width: 140px;
-  height: 186px;
-	z-index: 10;
-}
-
-.hit_pop5 {
-	position: absolute;
-  left: 659px;
-  top: 435px;
-  width: 140px;
-  height: 186px;
-	z-index: 10;
-}
-
-.hit_pop6 {
-	position: absolute;
-  left: 805px;
-  top: 586px;
-  width: 140px;
-  height: 105px;
-	z-index: 10;
-}
-
-.hit_pop7 {
-	position: absolute;
-  left: 805px;
-  top: 479px;
-  width: 140px;
-  height: 105px;
+  left: 516px;
+  top: 513px;
+  width: 464px;
+  height: 206px;
 	z-index: 10;
 }
 
@@ -221,12 +105,27 @@
 	z-index: 20;
 }
 
+.s1_2 {
+	position: absolute;
+  left: 173px;
+  top: 128px;
+  width: 704px;
+  height: 411px;
+	animation: swingIn 1s infinite;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
 
-@keyframes rotateInLoop {
-	0%  {
-		-webkit-transform: rotate(0deg);
-	}
-	100%	{
-		-webkit-transform: rotate(359deg);
-	}
+
+@keyframes swingIn {
+  0% {  
+	transform: rotateZ(1deg);
+  }
+  50% {
+	transform: rotateZ(-1deg);
+  }
+  100% {  
+	transform: rotateZ(1deg);
+  }
 }
