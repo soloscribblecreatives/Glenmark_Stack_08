@@ -19,10 +19,19 @@
 
 .s1_3 {
 	position: absolute;
-  left: 447px;
-  top: 86px;
-  width: 132px;
-  height: 423px;
+  left: 267px;
+  top: 77px;
+  width: 508px;
+  height: 477px;
+	z-index: 10;
+}
+
+.s1_4 {
+	position: absolute;
+  left: 130px;
+  top: 457px;
+  width: 753px;
+  height: 87px;
 	z-index: 10;
 }
 
@@ -108,7 +117,7 @@
 .s1_2 {
 	position: absolute;
   left: 173px;
-  top: 128px;
+  top: 120px;
   width: 704px;
   height: 411px;
 	animation: swingIn 1s infinite;
