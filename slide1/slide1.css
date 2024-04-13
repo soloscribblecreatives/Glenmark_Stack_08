@@ -10,131 +10,80 @@
 	z-index: 1;
 }
 
-.s1_1 {
+.video1 {
+	position: absolute;
+	width: 1024px;
+	height: 670px;
+	z-index:5;
+}
+
+.button1 {
 	position: absolute;
 	width: 1024px;
 	height: 768px;
-	z-index: 1;
+	z-index: 999;
 }
 
-.s1_3 {
+.button2 {
 	position: absolute;
-  left: 267px;
-  top: 77px;
-  width: 508px;
-  height: 477px;
-	z-index: 10;
-}
-
-.s1_4 {
-	position: absolute;
-  left: 130px;
-  top: 457px;
-  width: 753px;
-  height: 87px;
-	z-index: 10;
-}
-
-.takeCover {
-	position: absolute;
-  left: 715px;
-  top: 682px;
-  width: 68px;
-  height: 86px;
-	z-index: 10;
-}
-
-.takeSum {
-	position: absolute;
-  left: 786px;
-  top: 682px;
-  width: 68px;
-  height: 86px;
-	z-index: 10;
-}
-
-.takeBreath {
-	position: absolute;
-  left: 74px;
-  top: 179px;
-  width: 295px;
-  height: 256px;
-	z-index: 10;
-}
-
-.hit_1, .hit_2, .hit_3, .hit_4 {
-  position: absolute;
-  width: 1024px;
-  height: 768px;
-  display: none;
-  z-index: 15;
-}
-
-.hit_pop1 {
-	position: absolute;
-  left: 857px;
-  top: 682px;
-  width: 68px;
-  height: 86px;
-	z-index: 10;
-}
-
-.hit_pop2 {
-	position: absolute;
-  left: 928px;
-  top: 682px;
-  width: 68px;
-  height: 86px;
-	z-index: 10;
-}
-
-.hit_pop3 {
-	position: absolute;
-  left: 93px;
-  top: 697px;
-  width: 47px;
-  height: 71px;
-	z-index: 10;
-}
-
-.hit_pop4 {
-	position: absolute;
-  left: 516px;
-  top: 513px;
-  width: 464px;
-  height: 206px;
-	z-index: 10;
-}
-
-.hit_close1 {
-	position: absolute;
-	width: 1024px;
-	height: 768px;
+  left: 318px;
+  top: 65px;
+  width: 377px;
+  height: 556px;
 	display: none;
+	animation: slideInDown 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+	z-index: 999;
+}
+
+.video2 {
+	position: absolute;
+	width: 1024px;
+	height: 670px;
+	display: none;
+	z-index:10;
+}
+
+.hand {
+	position: absolute;
+  left: 711px;
+  top: 304px;
+  width: 65px;
+  height: 46px;
+	display: none;
+	animation: leftRight 1s infinite linear;
+    animation-delay: 0s;
+    animation-fill-mode: both;
 	z-index: 20;
 }
 
-.s1_2 {
+.text {
 	position: absolute;
-  left: 173px;
-  top: 120px;
-  width: 704px;
-  height: 411px;
-	animation: swingIn 1s infinite;
-	animation-delay: 0s;
-	animation-fill-mode: both;
-	z-index: 5;
+  left: 793px;
+  top: 286px;
+  width: 161px;
+  height: 110px;
+	display: none;
+	animation: fadeInRight 0.3s;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+	z-index: 20;
 }
 
 
-@keyframes swingIn {
-  0% {  
-	transform: rotateZ(1deg);
+@keyframes leftRight {
+  from {
+	left: 711px;
+    opacity: 1;
   }
-  50% {
-	transform: rotateZ(-1deg);
+
+ 50% {
+	left: 700px;
+    opacity: 1;
   }
-  100% {  
-	transform: rotateZ(1deg);
+ to {
+	left: 711px;
+    opacity: 1;
   }
 }
