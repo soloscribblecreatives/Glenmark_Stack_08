@@ -1,0 +1,91 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.background {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+
+.takeCover {
+	position: absolute;
+  left: 715px;
+  top: 682px;
+  width: 68px;
+  height: 86px;
+	z-index: 10;
+}
+
+.takeSum {
+	position: absolute;
+  left: 786px;
+  top: 682px;
+  width: 68px;
+  height: 86px;
+	z-index: 10;
+}
+
+.takeBreath {
+	position: absolute;
+  left: 74px;
+  top: 179px;
+  width: 295px;
+  height: 256px;
+	z-index: 10;
+}
+
+.hit_1, .hit_2, .hit_3, .hit_4 {
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  display: none;
+  z-index: 15;
+}
+
+.hit_pop1 {
+	position: absolute;
+  left: 857px;
+  top: 682px;
+  width: 68px;
+  height: 86px;
+	z-index: 10;
+}
+
+.hit_pop2 {
+	position: absolute;
+  left: 928px;
+  top: 682px;
+  width: 68px;
+  height: 86px;
+	z-index: 10;
+}
+
+.hit_pop3 {
+	position: absolute;
+  left: 857px;
+  top: 682px;
+  width: 68px;
+  height: 86px;
+  display: none;
+	z-index: 30;
+}
+
+.hit_pop4 {
+	position: absolute;
+  left: 516px;
+  top: 513px;
+  width: 464px;
+  height: 206px;
+	z-index: 10;
+}
+
+.hit_close1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 20;
+}
